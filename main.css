@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Nuku;
+  src: url(assets/fonts/beb985b49b3d670babde88acfa5792ff.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.overlay {
+  position: absolute;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  outline: none;
+  z-index: 2;
+  color: orange;
+  font-family: Nuku;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 100px;
+  padding-bottom: 100vh;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  padding-bottom: 50px;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 152vh;
+  max-width: 400px;
+  opacity: 0.8;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
